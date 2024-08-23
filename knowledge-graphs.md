@@ -110,7 +110,20 @@ OWL-based reasoning would be able to - within computational limits - derive new 
 
 # Data Modeling
 
-Graph data modeling is very similar to relational data modeling; the main difference is in the consideration of relationships between entities. With graph technologies, the conceptual data model is the actual physical data model.
+Graph data modeling is, in some ways, very similar to relational data modeling; the main difference is in the consideration of relationships between entities. With graph technologies, the conceptual data model is the actual physical data model.
+
+Graph modeling is driven by use cases. This makes it very different from creating a schema for a relational database, for
+example, where you would generally follow normalisation rules without having to know anything about the types of queries
+users will be executing.
+
+The best tool for graph modelling is a whiteboard. 
+
+* Make sure everyone is clear about the use case. 
+* You get started by drawing the entities that stand out, which will represent nodes in your graph. 
+* Start by picking out the nouns from the use case-more often than not, they’re entities that have some conceptual identity. 
+* Relationships are usually the verbs or actions in your use case. 
+* the model can change as the use case gets clearer, or you get more use cases.  
+* iterate, iterate, iterate
 
 ## Elements
 
